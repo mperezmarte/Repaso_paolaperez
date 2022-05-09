@@ -12,20 +12,21 @@ public class PruebaRepaso {
 		System.out.println("Introduce un numero:");
 		num2=Integer.parseInt(ent.nextLine());
 		
-		sumar(); //Laro has este método.
-		restar(); 
+		sumar(num1,num2); //Laro has este método.
+		restar(num1,num2); 
 		
 
 	}
 	
-	public static void sumar() {
-
+	public static void sumar(int num1,int num2) {
+		
+		System.out.println(num1+num2);
 
 	}
 	
-	public static void restar() {
+	public static void restar(int num1,int num2) {
 
-
+		System.out.println(num1-num2);
 
 	}
 	}
